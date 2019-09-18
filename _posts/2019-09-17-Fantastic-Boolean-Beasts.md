@@ -95,7 +95,7 @@ When using boolean operators in Java, you have to be careful. There are fundamen
 
 ##Keep Looking
 
-You may have noticed that, despite the title of this post, you only spotted 8 boolean logical operators. What are the other 8 operators you ask?  Despite consulting with multiple expert programmers, the author was unable to identify the additional 8.  There was some speculation among the experts polled that comparison statements like !=, <, >, <=, >=, could be considered conditional boolean expressions.  In the search for the elusive 8 operators, even = and == were considered. However, no consensus could be reached in the time allotted since the expert programmers had to go to bed early. One can hope that, in the future, exciting new research will merit follow up post detailing the mysterious additional boolean operators.
+You may have noticed that, despite the title of this post, you only spotted 8 boolean logical operators. What are the other 8 operators you ask?  Despite consulting with multiple expert programmers, the author was unable to identify the additional 8 rumored to be used in programming.  There was some speculation among the experts polled that comparison statements like !=, <, >, <=, >=, could be considered conditional boolean expressions.  In the search for the elusive 8 operators, even = and == were considered. However, no consensus could be reached in the time allotted since the expert programmers had to go to bed early. One can hope that, in the future, exciting new research will merit follow up post detailing the mysterious additional boolean operators.
 
 
 
