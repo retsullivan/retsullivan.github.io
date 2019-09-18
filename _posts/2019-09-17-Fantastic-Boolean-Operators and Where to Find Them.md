@@ -29,33 +29,36 @@ Two more important Boolean operators are “And” and “Or”.  In Java, the c
 
 ## Truth Table for Or 
 
-|a | b |AorB|
-|------------ | ------------- |-------------|
-|T | T | T|
-|F | T | T|
-|T | F | T|
-|F | F | F|
+|    A  	| B     	| A or B      	|
+|-------	|-------	|-------------	|
+| T     	| F     	|             	|
+| TRUE  	| TRUE  	| TRUE        	|
+| FALSE 	| TRUE  	| TRUE        	|
+| TRUE  	| FALSE 	| TRUE        	|
+| FALSE 	| FALSE 	| FALSE       	|
 
 
 ## Truth Table for And "&&"
 
-a | b | "A&&B"
------------- | ------------- | -------------
-T | T | T
-F | T | F
-T | F | F
-F | F | F
+|          A 	| B     	| A &&  B (and) 	|
+|------------	|-------	|---------------	|
+| T          	| F     	|               	|
+| TRUE       	| TRUE  	| TRUE          	|
+| FALSE      	| TRUE  	| FALSE         	|
+| TRUE       	| FALSE 	| FALSE         	|
+| FALSE      	| FALSE 	| FALSE         	|
 
 Included in the table below is a concept called “exclusive or”.  This is a logical concept that does not have a character exclusive operator in Java.  However, we can construct the logic behind it through a bit of code (seen in the table below) that combines the || and && operators. In simple language, exclusive or mean “this or that, but not both’.
 
 ## Truth Table for Exclusive Or
 
-a | b | A XOR B
------------- | ------------- | -------------
-T|T|F
-F|T|T
-T|F|T
-F|F|F
+|          A   	| B     	| A XOR B  	|
+|--------------	|-------	|----------	|
+| Exclusive OR 	| F     	|          	|
+| TRUE         	| TRUE  	| False    	|
+| FALSE        	| TRUE  	| TRUE     	|
+| TRUE         	| FALSE 	| TRUE     	|
+| FALSE        	| FALSE 	| FALSE    	|
 
 Boolean operators are used in loops to determine if the program should enter a loop, or continue to pass through a loop.  The table below contains some pseudocode examples and brief explanations.
 
