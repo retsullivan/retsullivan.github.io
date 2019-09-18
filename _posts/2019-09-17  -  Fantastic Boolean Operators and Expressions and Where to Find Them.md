@@ -25,8 +25,8 @@ Using Boolean Logic on two elements
 
 Two more important Boolean operators are “And” and “Or”.  In Java, the comparison operator “And” is written “&&”, and "Or" is written as  “||”.  Truth tables with two boolean elements are more complicated because we have to compare two bools to create our final true or false declaration.
 
-##Truth Table for Or
-a | b | "A||B"
+##Truth Table for Or "||"
+a | b | A or B
 ------------ | ------------- | -------------
 T|T|T
 F|T|T
@@ -34,8 +34,8 @@ T|F|T
 F|F|F
 
 
-##Truth Table for And
-a | b | "A&&B"
+##Truth Table for And "&&"
+a|b|"A&&B"
 ------------ | ------------- | -------------
 T|T|T
 F|T|F
