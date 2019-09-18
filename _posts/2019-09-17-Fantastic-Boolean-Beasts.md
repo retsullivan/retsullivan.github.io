@@ -31,14 +31,14 @@ When considering a single variable boolean, we see that if a bool (a) is true th
 Two more important Boolean operators are “And” and “Or”.  In Java, the comparison operator “And” is written “&&”, and "Or" is written as  “||”.  Truth tables with two boolean elements are more complicated because we have to compare two bools to create our final true or false declaration.
 
 ## Truth Table for Or 
----
-a | b |AorB
------------- | ------------- |-------------
-T | T | T
-F | T | T
-T | F | T
-F | F | F
----
+
+|a | b |AorB|
+|------------ | ------------- |-------------|
+|T | T | T|
+|F | T | T|
+|T | F | T|
+|F | F | F|
+
 
 ## Truth Table for And "&&"
 
