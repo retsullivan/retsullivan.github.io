@@ -25,7 +25,7 @@ When considering a single variable boolean, we see that if a bool (a) is true th
 
 ## Using Boolean Logic on two elements
 
-Two more important Boolean operators are “And” and “Or”.  In Java, the comparison operator “And” is written “&&”, and "Or" is written as  “||”.  Truth tables with two boolean elements are more complicated because we have to compare two bools to create our final true or false declaration.
+Two more important Boolean operators are “And” and “Or”.  In Java, the comparison operator “And” is written “&&”, and "Or" is written as  two vertical lines.  Truth tables with two boolean elements are more complicated because we have to compare two bools to create our final true or false declaration.
 
 ## Truth Table for Or 
 
@@ -93,12 +93,3 @@ When using boolean operators in Java, you have to be careful. There are fundamen
 ## Keep Looking
 
 You may have noticed that, despite the title of this post, you only spotted 8 boolean logical operators. What are the other 8 operators you ask?  Despite consulting with multiple expert programmers, the author was unable to identify the additional 8 rumored to be used in programming.  There was some speculation among the experts polled that comparison statements like !=, <, >, <=, >=, could be considered conditional boolean expressions.  In the search for the elusive 8 operators, even = and == were considered. However, no consensus could be reached in the time allotted since the expert programmers had to go to bed early. One can hope that, in the future, exciting new research will merit follow up post detailing the mysterious additional boolean operators.
-
-
-
-
-
-
-
-
-
