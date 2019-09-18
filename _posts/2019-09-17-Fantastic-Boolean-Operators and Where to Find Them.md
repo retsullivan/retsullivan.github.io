@@ -220,7 +220,7 @@ The examples above are all conditional boolean operators.  Java also has bitwise
 
 ## Be careful!
 
-When using boolean operators in Java, you have to be careful. There are fundamental differences between “&” and “&&”  and “|” and “||”. The single & and | REQUIRE the compiler to look at both conditions.  In contrast, as soon as the compiler sees that && and or has reached inevitability, it stops comparing and doesn’t validate the rest of the statement is true. 
+When using boolean operators in Java, you have to be careful. There are fundamental differences between “&” and “&&”  and “or” and “or or”. The single & and or REQUIRE the compiler to look at both conditions.  In contrast, as soon as the compiler sees that && and or has reached inevitability, it stops comparing and doesn’t validate the rest of the statement is true. 
 
 ## Keep Looking
 
