@@ -2,6 +2,12 @@
 layout: post
 title: Fantastic Boolean Operators and Where to Find Them
 ---
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+        border: 1px solid black;
+        }
+</style>
+
 By Rachel "Scamander" Sullivan
 
 ## Boolean Logic
