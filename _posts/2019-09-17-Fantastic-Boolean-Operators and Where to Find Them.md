@@ -2,11 +2,6 @@
 layout: post
 title: Fantastic Boolean Operators and Where to Find Them
 ---
-<style>
-.tablelines table, .tablelines td, .tablelines th {
-        border: 1px solid black;
-        }
-</style>
 
 By Rachel "Scamander" Sullivan
 
@@ -52,7 +47,7 @@ Two more important Boolean operators are “And” and “Or”.  In Java, the c
 | TRUE       	| FALSE 	| FALSE         	|
 | FALSE      	| FALSE 	| FALSE         	|
 
-Included in the table below is a concept called “exclusive or”.  This is a logical concept that does not have a character exclusive operator in Java.  However, we can construct the logic behind it through a bit of code (seen in the table below) that combines the || and && operators. In simple language, exclusive or mean “this or that, but not both’.
+Included in the table below is a concept called “exclusive or”.  This is a logical concept that does not have a character exclusive operator in Java.  However, we can construct the logic behind it through a bit of code (seen in the table below) that combines the or and && operators. In simple language, exclusive or mean “this or that, but not both’.
 
 ## Truth Table for Exclusive Or
 
@@ -111,7 +106,7 @@ The examples above are all conditional boolean operators.  Java also has bitwise
 
 ## Be careful!
 
-When using boolean operators in Java, you have to be careful. There are fundamental differences between “&” and “&&”  and “|” and “||”. The single & and | REQUIRE the compiler to look at both conditions.  In contrast, as soon as the compiler sees that && and || has reached inevitability, it stops comparing and doesn’t validate the rest of the statement is true. 
+When using boolean operators in Java, you have to be careful. There are fundamental differences between “&” and “&&”  and “|” and “||”. The single & and | REQUIRE the compiler to look at both conditions.  In contrast, as soon as the compiler sees that && and or has reached inevitability, it stops comparing and doesn’t validate the rest of the statement is true. 
 
 ## Keep Looking
 
