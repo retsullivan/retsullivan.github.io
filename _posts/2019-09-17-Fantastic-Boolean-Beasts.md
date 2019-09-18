@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fantastic Boolean Operators
+title: Fantastic Boolean Beasts
 ---
 
 
@@ -19,10 +19,10 @@ The negation operator is written as “~” for primitives and “!” for varia
 
 ## Truth Table for Negation
 
-a |!a
------------- | -------------
-T|F
-F|T
+|a |!a|
+|------------ | -------------|
+|T|F|
+|F|T|
 
 When considering a single variable boolean, we see that if a bool (a) is true than its opposite (!a) is false.  Likewise if a bool (a) is false, it’s opposite (!a) must be true. In Java, the ! operator returns true if the operand to the right evaluates to false.  It returns false if the operand to the right is true.
 
