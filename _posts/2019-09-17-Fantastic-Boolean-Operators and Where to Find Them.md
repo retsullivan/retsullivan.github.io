@@ -136,12 +136,33 @@ Included in the table below is a concept called “exclusive or”.  This is a l
 
 Boolean operators are used in loops to determine if the program should enter a loop, or continue to pass through a loop.  The table below contains some pseudocode examples and brief explanations.
 
-Operator | Code | Explanation
------------- | ------------- | -------------
-!|if( !a){ //do code}|This will execute only if A is not true
-or|if (a or b){	//do code}|This will execute as long as ONE of the elements is TRUE
-&&|if (a&&b){//do code}|This will execute ONLY if BOTH a and b are TRUE
-XOR|public static boolean logicalXOR(boolean x, boolean y) { return ( ( x or y ) && ! ( x && y ) ); }|This will only execute if the truth values don’t match.
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 12px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #000000; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>Operator</th><th>Code</th><th>Explanation</th></tr></thead><tbody>
+ <tr><td>!</td><td>if( !a){ //do code}</td><td>This will execute only if A is not true</td></tr>
+ <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>||</td><td>if (a||b){ //do code }</td><td>This will execute as long as ONE of the elements is TRUE</td></tr>
+ <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>&&</td><td>if (a&&b){ //docode}</td><td>This will execute ONLY if BOTH a and b are TRUE</td></tr>
+ <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>XOR</td><td>public static boolean logicalXOR(boolean x, boolean y) {  return ( ( x || y ) && ! ( x && y ) ); }</td><td>There is no character exclusive or operator in java.  However, one can create the logic though combining the || and && operators.  This will only execute if the truth values don't match. (One must be true and one must be false)</td></tr>
+</tbody></table>
 
 The examples above are all conditional boolean operators.  Java also has bitwise boolean operators with similar properties.  
 
