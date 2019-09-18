@@ -80,12 +80,12 @@ The examples above are all conditional boolean operators.  Java also has bitwise
 ## Bitwise Or, And, and Exclusive Or Truth Table
 
 
-| a 	| b 	| a|b  	| a&b 	| a^b  	|
-|---	|---	|------	|-----	|------	|
-| 0 	| 1 	| 1    	| 0   	| 1    	|
-| 1 	| 1 	| 1    	| 1   	| 0    	|
-| 0 	| 0 	| 0    	| 0   	| 0    	|
-| 1 	| 0 	| 1    	| 0   	| 1    	|
+| a 	| b 	| a or b  	| a & b 	| a ^ b 	|
+|---	|---	|---------	|-------	|-------	|
+| 0 	| 1 	| 1       	| 0     	| 1     	|
+| 1 	| 1 	| 1       	| 1     	| 0     	|
+| 0 	| 0 	| 0       	| 0     	| 0     	|
+| 1 	| 0 	| 1       	| 0     	| 1     	|
 
 ## Be careful!
 
