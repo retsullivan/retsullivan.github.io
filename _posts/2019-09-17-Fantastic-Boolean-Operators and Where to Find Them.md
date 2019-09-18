@@ -31,7 +31,6 @@ Two more important Boolean operators are “And” and “Or”.  In Java, the c
 
 |    A  	| B     	| A or B      	|
 |-------	|-------	|-------------	|
-| T     	| F     	|             	|
 | TRUE  	| TRUE  	| TRUE        	|
 | FALSE 	| TRUE  	| TRUE        	|
 | TRUE  	| FALSE 	| TRUE        	|
@@ -42,7 +41,6 @@ Two more important Boolean operators are “And” and “Or”.  In Java, the c
 
 |          A 	| B     	| A &&  B (and) 	|
 |------------	|-------	|---------------	|
-| T          	| F     	|               	|
 | TRUE       	| TRUE  	| TRUE          	|
 | FALSE      	| TRUE  	| FALSE         	|
 | TRUE       	| FALSE 	| FALSE         	|
