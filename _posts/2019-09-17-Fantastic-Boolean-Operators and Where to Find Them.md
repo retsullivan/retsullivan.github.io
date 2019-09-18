@@ -101,7 +101,6 @@ Two more important Boolean operators are “And” and “Or”.  In Java, the c
  <tr><td>F</td><td>T</td><td>F</td></tr>
  <tr><td>T</td><td>F</td><td>F</td></tr>
  <tr><td>F</td><td>F</td><td>F</td></tr>
- <tr><td></td></tr>
 </tbody></table>
 
 Included in the table below is a concept called “exclusive or”.  This is a logical concept that does not have a character exclusive operator in Java.  However, we can construct the logic behind it through a bit of code (seen in the table below) that combines the or and && operators. In simple language, exclusive or mean “this or that, but not both’.
