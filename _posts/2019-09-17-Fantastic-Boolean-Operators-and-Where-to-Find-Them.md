@@ -1,6 +1,6 @@
 <span class="c8">Fantastic Boolean Operators and Where to Find Them</span>
 
-<span class="c0">By Rachel Scamander Sullivan</span>
+<span class="c0">By Rachel "Scamander" Sullivan</span>
 
 <span class="c3"></span>
 
