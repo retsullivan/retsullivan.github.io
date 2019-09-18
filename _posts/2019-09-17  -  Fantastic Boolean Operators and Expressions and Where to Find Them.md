@@ -25,8 +25,8 @@ Using Boolean Logic on two elements
 
 Two more important Boolean operators are “And” and “Or”.  In Java, the comparison operator “And” is written “&&”, and "Or" is written as  “||”.  Truth tables with two boolean elements are more complicated because we have to compare two bools to create our final true or false declaration.
 
-##Truth Table for Or "||"
-a | b | A or B
+##Truth Table for Or 
+a|b|AorB
 ------------ | ------------- | -------------
 T|T|T
 F|T|T
@@ -57,7 +57,7 @@ Boolean operators are used in loops to determine if the program should enter a l
 Operator | Code | Explaination
 ------------ | ------------- | -------------
 !|if( !a){ //do code}|This will execute only if A is not true
-"||"|if (a||b){	//do code}|This will execute as long as ONE of the elements is TRUE
+or|if (a||b){	//do code}|This will execute as long as ONE of the elements is TRUE
 &&|if (a&&b){//do code}|This will execute ONLY if BOTH a and b are TRUE
 XOR|public static boolean logicalXOR(boolean x, boolean y) { return ( ( x || y ) && ! ( x && y ) ); }|There is no character exclusive or operator in java.  However, one can create the logic though combining the || and && operators. This will only execute if the truth values don’t match.
 
