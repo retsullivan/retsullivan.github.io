@@ -224,3 +224,35 @@ When using boolean operators in Java, you have to be careful. There are fundamen
 ## Keep Looking
 
 You may have noticed that, despite the title of this post, you only spotted 8 boolean logical operators. What are the other 8 operators you ask?  Despite consulting with multiple expert programmers, the author was unable to identify the additional 8 rumored to be used in programming.  There was some speculation among the experts polled that comparison statements like !=, <, >, <=, >=, could be considered conditional boolean expressions.  In the search for the elusive 8 operators, even = and == were considered. However, no consensus could be reached in the time allotted since the expert programmers had to go to bed early. One can hope that, in the future, exciting new research will merit follow up post detailing the mysterious additional boolean operators.
+
+## Update - More boolean operators found
+
+As hoped for, new research has uncovered an mathematical artifact that shows 16 mathematical logical operators.  Here they are for your enjoyment.
+
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 12px;
+		border: 1px solid #CCC; 
+		font-family: Verdana, Geneva, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #000000; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>p</th><th>q</th><th>&nbsp;</th><th> F0 </th><th> NOR1 </th><th> ↚2 </th><th> ¬p3 </th><th> ↛4 </th><th> ¬q5 </th><th> XOR6 </th><th> NAND7 </th><th>&nbsp;</th><th> AND8 </th><th> XNOR9 </th><th>q10</th><th>→11</th><th>p12</th><th>←13</th><th>OR14</th><th>T15</th></tr></thead><tbody>
+ <tr><td>T</td><td>T</td><td>&nbsp;</td><td>F</td><td>F</td><td>F</td><td>F</td><td>F</td><td>F</td><td>F</td><td>F</td><td>&nbsp;</td><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td><td>T</td></tr>
+ <tr><td>T</td><td>F</td><td>&nbsp;</td><td>F</td><td>F</td><td>F</td><td>F</td><td>T</td><td>T</td><td>T</td><td>T</td><td>&nbsp;</td><td>F</td><td>F</td><td>F</td><td>F</td><td>T</td><td>T</td><td>T</td><td>T</td></tr>
+ <tr><td>F</td><td>T</td><td>&nbsp;</td><td>F</td><td>F</td><td>T</td><td>T</td><td>F</td><td>F</td><td>T</td><td>T</td><td>&nbsp;</td><td>F</td><td>F</td><td>T</td><td>T</td><td>F</td><td>F</td><td>T</td><td>T</td></tr>
+ <tr><td>F</td><td>F</td><td>&nbsp;</td><td>F</td><td>T</td><td>F</td><td>T</td><td>F</td><td>T</td><td>F</td><td>T</td><td>&nbsp;</td><td>F</td><td>T</td><td>F</td><td>T</td><td>F</td><td>T</td><td>F</td><td>T</td></tr>
+ <tr><td>Com</td><td>&nbsp;</td><td>✓</td><td>✓</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>✓</td><td>✓</td><td>&nbsp;</td><td>✓</td><td>✓</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>✓</td><td>✓</td></tr>
+ <tr><td>L id</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>F</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>F</td><td>&nbsp;</td><td>&nbsp;</td><td>T</td><td>T</td><td>T,F</td><td>T</td><td>&nbsp;</td><td>&nbsp;</td><td>F</td><td>&nbsp;</td></tr>
+ <tr><td>R id</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>F</td><td>&nbsp;</td><td>F</td><td>&nbsp;</td><td>&nbsp;</td><td>T</td><td>T</td><td>&nbsp;</td><td>&nbsp;</td><td>T,F</td><td>T</td><td>F</td><td></td></tr>
+</tbody></table>
