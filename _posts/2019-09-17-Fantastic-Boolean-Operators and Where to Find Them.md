@@ -17,10 +17,28 @@ The negation operator is written as “~” for primitives and “!” for varia
 
 ## Truth Table for Negation
 
-| A | !A |
-|---|----|
-| T | F  |
-| F | T  |
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 14px;
+		border: 1px solid #CCC; 
+		font-family: Verdana, Geneva, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #000000; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>A</th><th>!A</th></tr></thead><tbody>
+ <tr><td>T</td><td>F</td></tr>
+ <tr><td>F</td><td>T</td></tr>
+</tbody></table>
 
 When considering a single variable boolean, we see that if a bool (a) is true than its opposite (!a) is false.  Likewise if a bool (a) is false, it’s opposite (!a) must be true. In Java, the ! operator returns true if the operand to the right evaluates to false.  It returns false if the operand to the right is true.
 
@@ -30,33 +48,91 @@ Two more important Boolean operators are “And” and “Or”.  In Java, the c
 
 ## Truth Table for Or 
 
-|    A  	| B     	| A or B      	|
-|-------	|-------	|-------------	|
-| TRUE  	| TRUE  	| TRUE        	|
-| FALSE 	| TRUE  	| TRUE        	|
-| TRUE  	| FALSE 	| TRUE        	|
-| FALSE 	| FALSE 	| FALSE       	|
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 14px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #000000; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>A</th><th>B</th><th>A or B</th></tr></thead><tbody>
+ <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>T</td><td>T</td><td>T</td></tr>
+ <tr><td>F</td><td>T</td><td>T</td></tr>
+ <tr><td>T</td><td>T</td><td>T</td></tr>
+ <tr><td>F</td><td>F</td><td>F</td></tr>
+</tbody></table>
 
 
 ## Truth Table for And "&&"
 
-|          A 	| B     	| A &&  B (and) 	|
-|------------	|-------	|---------------	|
-| TRUE       	| TRUE  	| TRUE          	|
-| FALSE      	| TRUE  	| FALSE         	|
-| TRUE       	| FALSE 	| FALSE         	|
-| FALSE      	| FALSE 	| FALSE         	|
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 14px;
+		border: 1px solid #CCC; 
+		font-family: Verdana, Geneva, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #000000; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>A</th><th>B</th><th>A && B</th></tr></thead><tbody>
+ <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>T</td><td>T</td><td>T</td></tr>
+ <tr><td>F</td><td>T</td><td>F</td></tr>
+ <tr><td>T</td><td>F</td><td>F</td></tr>
+ <tr><td>F</td><td>F</td><td>F</td></tr>
+ <tr><td></td></tr>
+</tbody></table>
 
 Included in the table below is a concept called “exclusive or”.  This is a logical concept that does not have a character exclusive operator in Java.  However, we can construct the logic behind it through a bit of code (seen in the table below) that combines the or and && operators. In simple language, exclusive or mean “this or that, but not both’.
 
 ## Truth Table for Exclusive Or
 
-|          A   	| B     	| A XOR B  	|
-|--------------	|-------	|----------	|
-| TRUE         	| TRUE  	| False    	|
-| FALSE        	| TRUE  	| TRUE     	|
-| TRUE         	| FALSE 	| TRUE     	|
-| FALSE        	| FALSE 	| FALSE    	|
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 14px;
+		border: 1px solid #CCC; 
+		font-family: Verdana, Geneva, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #000000; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>A</th><th>B</th><th>A XOR B</th></tr></thead><tbody>
+ <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+ <tr><td>T</td><td>T</td><td>F</td></tr>
+ <tr><td>F</td><td>T</td><td>T</td></tr>
+ <tr><td>T</td><td>F</td><td>T</td></tr>
+ <tr><td>F</td><td>F</td><td>F</td></tr>
+</tbody></table>
 
 Boolean operators are used in loops to determine if the program should enter a loop, or continue to pass through a loop.  The table below contains some pseudocode examples and brief explanations.
 
@@ -71,17 +147,9 @@ The examples above are all conditional boolean operators.  Java also has bitwise
 
 ## Bitwise Negation Truth Table
 
-| a 	| ~a 	|
-|---	|----	|
-| 1 	| 0  	|
-| 0 	| 1  	|
-
-## Bitwise Or, And, and Exclusive Or Truth Table
-
-
 <style type="text/css">
 	table.tableizer-table {
-		font-size: 12px;
+		font-size: 14px;
 		border: 1px solid #CCC; 
 		font-family: Verdana, Geneva, sans-serif;
 	} 
@@ -91,7 +159,32 @@ The examples above are all conditional boolean operators.  Java also has bitwise
 		border: 1px solid #CCC;
 	}
 	.tableizer-table th {
-		background-color: #67138B; 
+		background-color: #000000; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>A</th><th>~A</th></tr></thead><tbody>
+ <tr><td>T</td><td>F</td></tr>
+ <tr><td>F</td><td>T</td></tr>
+</tbody></table>
+## Bitwise Or, And, and Exclusive Or Truth Table
+
+
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 14px;
+		border: 1px solid #CCC; 
+		font-family: Verdana, Geneva, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #000000; 
 		color: #FFF;
 		font-weight: bold;
 	}
