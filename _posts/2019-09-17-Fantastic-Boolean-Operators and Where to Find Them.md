@@ -54,7 +54,6 @@ Included in the table below is a concept called “exclusive or”.  This is a l
 
 |          A   	| B     	| A XOR B  	|
 |--------------	|-------	|----------	|
-| Exclusive OR 	| F     	|          	|
 | TRUE         	| TRUE  	| False    	|
 | FALSE        	| TRUE  	| TRUE     	|
 | TRUE         	| FALSE 	| TRUE     	|
@@ -73,25 +72,24 @@ The examples above are all conditional boolean operators.  Java also has bitwise
 
 ## Bitwise Negation Truth Table
 
-a |~a
------------- | -------------
-T|F
-F|T
+| a 	| ~a 	|
+|---	|----	|
+| 1 	| 0  	|
+| 0 	| 1  	|
 
 ## Bitwise Or, And, and Exclusive Or Truth Table
 
-a | b | A OR B | A & B | A ^ B
------------- | ------------- | ------------- | ------------- | -------------
-0 | 1 | 1 | 0 | 1
-1 | 1 | 1 | 1 | 0
-0 | 0 | 0 | 0 | 0
-1 | 0 | 1 | 0 | 1
+
+| a 	| b 	| a|b  	| a&b 	| a^b  	|
+|---	|---	|------	|-----	|------	|
+| 0 	| 1 	| 1    	| 0   	| 1    	|
+| 1 	| 1 	| 1    	| 1   	| 0    	|
+| 0 	| 0 	| 0    	| 0   	| 0    	|
+| 1 	| 0 	| 1    	| 0   	| 1    	|
 
 ## Be careful!
 
 When using boolean operators in Java, you have to be careful. There are fundamental differences between “&” and “&&”  and “|” and “||”. The single & and | REQUIRE the compiler to look at both conditions.  In contrast, as soon as the compiler sees that && and || has reached inevitability, it stops comparing and doesn’t validate the rest of the statement is true. 
-
-
 
 ## Keep Looking
 
