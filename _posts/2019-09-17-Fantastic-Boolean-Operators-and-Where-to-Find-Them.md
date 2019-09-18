@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fantastic Boolean Operators and Where to Find Them
+title: Fantastic Boolean Operators
 ---
 
 <span class="c8">Fantastic Boolean Operators and Where to Find Them</span>
