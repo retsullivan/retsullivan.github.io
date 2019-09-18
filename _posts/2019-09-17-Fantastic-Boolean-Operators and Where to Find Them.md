@@ -84,12 +84,30 @@ The examples above are all conditional boolean operators.  Java also has bitwise
 ## Bitwise Or, And, and Exclusive Or Truth Table
 
 
-| a 	| b 	| a or b  	| a & b 	| a ^ b 	|
-|---	|---	|---------	|-------	|-------	|
-| 0 	| 1 	| 1       	| 0     	| 1     	|
-| 1 	| 1 	| 1       	| 1     	| 0     	|
-| 0 	| 0 	| 0       	| 0     	| 0     	|
-| 1 	| 0 	| 1       	| 0     	| 1     	|
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 12px;
+		border: 1px solid #CCC; 
+		font-family: Verdana, Geneva, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #67138B; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>a</th><th>b</th><th>a|b </th><th>a&b</th><th>a^b</th></tr></thead><tbody>
+ <tr><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td></tr>
+ <tr><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td></tr>
+ <tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+ <tr><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td></tr>
+</tbody></table>
 
 ## Be careful!
 
