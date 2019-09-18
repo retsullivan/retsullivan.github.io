@@ -1,10 +1,7 @@
 ---
 layout: post
-title: Fantastic Boolean Beasts
+title: Fantastic Boolean Operators and Where to Find Them
 ---
-
-
-## Fantastic Boolean Operators and Where to Find Them
 By Rachel "Scamander" Sullivan
 
 ## Boolean Logic
