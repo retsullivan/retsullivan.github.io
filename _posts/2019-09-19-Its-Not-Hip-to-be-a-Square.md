@@ -22,7 +22,7 @@ A better mathematical corollary might be types of Real numbers.
 In this scenario, each type of number only inherits from a single parent class. A good way to visualize this is though grouping the numbers inside circles.
 
 
-![](https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3Aedf96073394ae3847c488a7196e4120718910bddd38ee8cf5c1683bc%2BIMAGE%2BIMAGE.1)
+![](http://cyclesrecycled.com/wp-content/uploads/2018/05/classifying-real-numbers-worksheets-pdf-classification-of-diagram-are-made-up-five-different-types-as.jpg)
 
 Consider the number 5, a natural number. The circle for natural numbers is enclosed by the circles for Whole, Integer, Rational and Real, making 5 fall within those circles as well. This is because 5 is a natural number, whole number, an integer, a rational number, and a real number. "5" has all the traits of an integer, because Natural numbers are a type of whole number, which is a type of integer.
 
