@@ -13,9 +13,12 @@ In Java, though classes can inherit properties from multiple parent classes, the
 
 The issue with squares is that, in mathematics, they have all the properties of both rectangles and rhombi. A square is a rhombus, and a square is a rectangle - it has all the features of both categories. If I have a square, I can assume that it has 4 equal angles (a property of rectangles) *and* 4 equal sides (a property of rectangles).  
 
-This dual inheritance is not something that is allowed in Java classes.  A square is a bad example of inheritance because (in mathematics) it inherits from more than one direct parent.
+This dual inheritance is not something that is allowed in Java classes.  A square is a bad example of inheritance because (in mathematics) it inherits from more than one direct parent.  Because of this, trying to create code in which squares inherit area or perimeter fomulas from a rectangle parent class violates the Liskov Substitution principle.
 
-A better mathematical corollary might be types of Real numbers. 
+The Liskov Substitution principle states that functions that use references to base classes must be able to use objects of the derived class without knowing it. (https://dzone.com/articles/the-liskov-substitution-principle-with-examples) More will be posted about it later.
+
+
+A better mathematical corollary for class inheritance might be types of Real numbers. 
 
 ![](https://cdn1.byjus.com/wp-content/uploads/2019/04/Real-Numbers-Chart.png)
 
