@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Your Mother was a Toaster and your Father Smelled of Class Inheritance
 ---
