@@ -2,10 +2,8 @@
 layout: post
 title: Your Mother was a Toaster and your Father Smelled of Class Inheritance
 ---
-
 By Rachel Turek Sullivan
 
-## 
 
 Today in improving BOOTCAMP, we were introduced to classes.  Classes are fundamental to Object Oriented Programming (OOP), so understanding how they work is essential to learning how to create easy to follow program structures.  One important characteristic of classes is the idea of inheritance.  
 
