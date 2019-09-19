@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Git Out - a Not So Scary Blog Post
+title: Git Out - Don't be Scared to Commit
 ---
 
 by Rachel Turek Sullivan
