@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Git Out - Don't be Scared to Commit
 ---
