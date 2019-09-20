@@ -14,8 +14,6 @@ The issue with squares is that, in mathematics, they have all the properties of 
 
 This dual inheritance is not something that is allowed in Java classes.  A square is a bad example of inheritance because (in mathematics) it inherits from more than one direct parent.  Because of this, trying to create code in which squares inherit area or perimeter calculators (or even something as simple as setting the length and width) from a rectangle parent class violates SOILD coding practices (in particular the <a href="https://dzone.com/articles/the-liskov-substitution-principle-with-examples" target="_blank">Liskov Substitution principle</a>).
 
-![![SOLID](https://github.com/retsullivan/retsullivan.github.io/blob/master/images/solid%20chart.jpg?raw=true)](![SOLID](https://github.com/retsullivan/retsullivan.github.io/blob/master/images/solid%20chart.jpg?raw=true))
-
-(![SOLID](/images/2019-09-19-Its-Not-Hip-to-be-a-Square-Solid))
+![SOLID](/images/2019-09-19-Its-Not-Hip-to-be-a-Square-Solid.jpg)
 
 The Liskov Substitution Principle (LSP) states that all instances of a parent class should be replaceable with any instance of a child class without the user knowing the difference and without causing any issues in the program. Suppose, S and R are objects, and S subclass on R. If LSP is not carefully followed when creating the subclass S, there is could be an operation accessible through the interface of R which behaves differently when applied to S. So code written to work with the parent class R will not expect the outlier behavior and maybe not function as intended. 
