@@ -3,6 +3,8 @@ title:
 Post: It's not Hip to be Square (in Java)
 ---
 
+by Rachel Turek Sullivan
+
 **Why is a square a bad example of object inheritance?**
 
 In <a href="https://retsullivan.github.io/Your-Mother-was-a-Toaster-and-your-Father-Smelled-of-Class-Inheritance/" target="_blank">yesterday's post</a>, I compared class inheritance in Java to how quadrilaterals are related to each other. Tim pointed out that while it's a decent analogy when considering quadrilaterals, parallelograms, and rectangles, the mapping breaks down when you consider squares.
