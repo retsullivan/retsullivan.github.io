@@ -1,8 +1,7 @@
-﻿
 ---
 title:
-It's not Hip to be Square (in Java)
-___
+Post: It's not Hip to be Square (in Java)
+---
 
 **Why is a square a bad example of object inheritance?**
 
