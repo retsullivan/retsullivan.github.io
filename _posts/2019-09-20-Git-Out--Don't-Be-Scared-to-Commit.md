@@ -18,8 +18,11 @@ Git creates snapshots of our saves and changes - it does not save the files.  It
 **Quick Commands**
 
 history - shows everything you've just typed in
+
 clear - deletes everything from the window to make visual space
+
 cd - change directory
+
 git ls - get a list of things in your folder
 
 
