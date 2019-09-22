@@ -8,7 +8,7 @@ by Rachel Turek Sullivan
 
 **Command Line Challenges**
 
-Learning to use the command line to navigate and manipulate files has been a surprisingly challenging task this week.  This post is a repository of common Git commands we've been using in Bootcamp.  I plan to update it occasionally when needed.
+Learning to use the command line to navigate and manipulate files has been a surprisingly challenging task this week.  This post is a repository of common comand line and Git commands we've been using in Bootcamp.  I plan to update it occasionally when needed.
 
 **Git the Big Picture**
 
