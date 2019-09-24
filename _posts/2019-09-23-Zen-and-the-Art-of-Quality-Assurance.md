@@ -5,7 +5,7 @@ title: Zen and the Art of Quality Assurance
 
 **What is "Quality"?**
 
-The famous book "Zen and the Art of Motorcycle Maintenance", is always the first thing that comes to mind when I hear the question "What is Quality?".  In the semi-autobiographical novel, the late Robert M. Pirsig describes a decent into madness in the quest to understand the ever elusive <a href="https://en.wikipedia.org/wiki/Pirsig%27s_Metaphysics_of_Quality" target="_blank">metaphysics of quality</a>.  Thankfully, quality in product development won't send us into a philosophical rabbit hole, especially since we will the learn Agile Development Process
+The famous book, "Zen and the Art of Motorcycle Maintenance", is always the first thing that comes to mind when I hear the question "What is Quality?".  In the semi-autobiographical novel, the late Robert M. Pirsig describes a decent into madness in the quest to understand the ever elusive <a href="https://en.wikipedia.org/wiki/Pirsig%27s_Metaphysics_of_Quality" target="_blank">metaphysics of quality</a>.  Thankfully, quality in product development won't send us into a philosophical rabbit hole, especially since we will the learn Agile Development Process
 
 **Quality in Product Development**
 
