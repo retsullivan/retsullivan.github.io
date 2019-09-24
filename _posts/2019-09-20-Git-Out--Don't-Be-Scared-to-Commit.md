@@ -3,9 +3,6 @@ layout: post
 title: Git Out - Don't be Scared to Commit
 ---
 
-by Rachel Turek Sullivan
-
-
 **Command Line Challenges**
 
 Learning to use the command line to navigate and manipulate files has been a surprisingly challenging task this week.  This post is a repository of common comand line and Git commands we've been using in Bootcamp.  I plan to update it occasionally when needed.
@@ -212,3 +209,6 @@ Checking what has been changed in a file since it was committed
     <td class="tg-0lax">Lets you integrate all the changes you’ve made into the master file</td>
   </tr>
 </table>
+
+
+posted by Rachel Turek Sullivan
