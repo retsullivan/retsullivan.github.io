@@ -1,4 +1,4 @@
-﻿---
+---
 post:
 title: Zen and the Art of Quality Assurance
 ---
