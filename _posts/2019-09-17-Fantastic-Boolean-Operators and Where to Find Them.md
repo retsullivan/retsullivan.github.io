@@ -3,8 +3,6 @@ layout: post
 title: Fantastic Boolean Operators and Where to Find Them
 ---
 
-By Rachel "Scamander" Sullivan
-
 ## Boolean Logic
 
 Boolean logic is a simple but powerful concept that is the foundation of many mathematical and scientific fields.  It is fundamental to software programming, because it is able to help developers breakdown complex statements into easy to digest logical formulas. 
@@ -256,3 +254,5 @@ As hoped for, new research has uncovered an mathematical artifact that shows 16 
  <tr><td>L id</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>F</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>F</td><td>&nbsp;</td><td>&nbsp;</td><td>T</td><td>T</td><td>T,F</td><td>T</td><td>&nbsp;</td><td>&nbsp;</td><td>F</td><td>&nbsp;</td></tr>
  <tr><td>R id</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>F</td><td>&nbsp;</td><td>F</td><td>&nbsp;</td><td>&nbsp;</td><td>T</td><td>T</td><td>&nbsp;</td><td>&nbsp;</td><td>T,F</td><td>T</td><td>F</td><td></td></tr>
 </tbody></table>
+
+posted by Rachel "Scamander" Sullivan
