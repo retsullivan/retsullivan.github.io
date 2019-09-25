@@ -1,4 +1,4 @@
-﻿---
+---
 post:
 Title: Almost Famous - the Fab 4 of Design Patterns
 ---
@@ -22,13 +22,4 @@ A design pattern provides reusable solutions for developing software. To quote T
 
 <a href="https://docs.google.com/spreadsheets/d/1OlY9JCrjk7uvxffcAcwOa1yOtACNMfv-YUb5PcUrOUI/edit?usp=sharing" target="_blank">Here</a> are the design patterns covered in today's lecture. I'll update the spreadsheet to reflect tomorrow's talk. 
 
-
-
-
-
-
-
-
-
-
-
+posted by Rachel Sullivan
