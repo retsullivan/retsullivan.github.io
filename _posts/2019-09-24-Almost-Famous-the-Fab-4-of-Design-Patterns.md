@@ -1,13 +1,13 @@
 ---
 Layout: post
-Title: Almost Famous - the Fab 4 of Design Patterns
+Title: Almost Famous 
 ---
 
-**Who needs the Fab 4 when you can have the Gang of 4?**
+**The Fab 4 of Design Patterns**
 
 <a href="https://en.wikipedia.org/wiki/Erich_Gamma" target="_blank">Erich Gamma</a>. Richard Helm. <a href="https://en.wikipedia.org/wiki/Ralph_Johnson_(computer_scientist)" target="_blank">Ralph Johnson</a>. <a href="https://en.wikipedia.org/wiki/John_Vlissides" target="_blank">John Vlissides</a>.  
 
-These names may not conjure up the immediate recognition like John, Paul, Ringo, and George, but they are **rock stars** in the Object Oriented Programming community.  
+These names may not conjure up the immediate recognition like John, Paul, Ringo, and George, but they are **rock stars** in the Object Oriented Programming community.  Who needs the Fab 4 when you can have the Gang of 4?!
 
 ![](https://www.ashishvishwakarma.com/GoF-Design-Patterns-by-Example/assets/Gang_Of_Four.gif)
 
