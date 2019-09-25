@@ -1,6 +1,6 @@
 ---
 Layout: post
-Title: Almost Famous - The Fab 4 of Design Patterns
+Title: Almost Famous (The Fab 4 of Design Patterns)
 ---
 
 **Who needs the Fab 4 when you can have the Gang of 4?**
