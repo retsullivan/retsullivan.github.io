@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Bootcamp 2019 Dictionary
 ---
