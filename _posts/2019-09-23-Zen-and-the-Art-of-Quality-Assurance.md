@@ -1,5 +1,5 @@
 ---
-post:
+Layout: post
 title: Zen and the Art of Quality Assurance
 ---
 
