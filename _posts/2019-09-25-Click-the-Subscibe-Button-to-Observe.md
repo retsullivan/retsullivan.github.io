@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Click the Subscribe Button to Observe
 ---
