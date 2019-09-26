@@ -30,7 +30,7 @@ t.setLastName(“Rayburn”);
 
 t.equals(p);  //as written, this would be False
 ```
-Why are these comparison’s false?
+Why are these comparisons false?
 After all, t and p are both named “Tim Rayburn”...
 
 The issue is that, in OOP, the question “Are they the same object ?” is a different question than “Do they contain the same value?”. We want the “t.equals(p);” to be true since they are, by-value, the same. We’re getting a false because we haven’t redefined .equals() on the Person class. By default, we’re currently getting Object’s original version of.equals(). 
@@ -69,7 +69,7 @@ System.out.println(p.hashCode() == t.haschCode); //this will still be false
 System.out.println(p.equals(t)));  //this will now be true
 ```
 
-When we work in Java, we can be “in charge” of equal. We can define what it means for any two members of a class to equal each other. This is a powerful tool of OOP, and is part of why subclasses are able to have methods and properties in addition to their original properties.
+When we work in Java, we can be “in charge” of the definition of equals. We can define what it means for any two members of a class to equal each other. This is a powerful tool of OOP, and is part of why subclasses are able to have methods and properties in addition to their original properties.
 
 Any time you extend or implement, you have created a polymorphic relationship between two types. If we create a class MiddleNamePerson that extends Person, it is a polymorphically equivalent child class of Person.
 
