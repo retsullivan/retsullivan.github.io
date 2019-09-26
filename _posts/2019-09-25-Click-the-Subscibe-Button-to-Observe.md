@@ -45,17 +45,17 @@ In it, you can see the Observer pattern described in 6 parts:
   </tr>
   <tr>
     <td class="tg-lboi">Subscription List</td>
-    <td class="tg-lboi">When a new event happens, the publisher uses a notification method to notigy all subscribers on the list</td>
+    <td class="tg-lboi">When a new event happens, the publisher uses a notification method to notify all subscribers on the list</td>
     <td class="tg-lboi"></td>
   </tr>
   <tr>
     <td class="tg-phtq">Subscriber</td>
-    <td class="tg-phtq">The subscriber has implements the notification interface, so it can get all the event details every time there is an update</td>
+    <td class="tg-phtq">The subscriber implements the notification interface, so it can get all the event details every time there is an update</td>
     <td class="tg-phtq"></td>
   </tr>
   <tr>
     <td class="tg-0pky">Concrete Subscribers</td>
-    <td class="tg-0pky">These special subscribers and do someting in response to getting a notification</td>
+    <td class="tg-0pky">These special subscribers do someting in response to getting a notification</td>
     <td class="tg-0pky"></td>
   </tr>
   <tr>
@@ -69,9 +69,6 @@ In it, you can see the Observer pattern described in 6 parts:
     <td class="tg-0pky"></td>
   </tr>
 </table>
-
-
-Usually, subscribers need some contextual information to handle the update correctly. For this reason, publishers often pass some context data as arguments of the notification method. The publisher can pass itself as an argument, letting subscriber fetch any required data directly.
 
 
 For a more expert and in depth description of the Observer pattern, checkout  <a href="https://refactoring.guru/design-patterns/observer	" target="_blank">this excellent post</a> from Refactoring Guru. It describes the Observer pattern in easy to understand language and includes some more great infographics and illustrations to help make envisioning the Observer pattern easy. 																						
