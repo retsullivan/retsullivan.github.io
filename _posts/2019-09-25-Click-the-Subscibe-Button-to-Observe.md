@@ -71,6 +71,7 @@ In it, you can see the Observer pattern described in 6 parts:
 </table>
 
 
+
 For a more expert and in depth description of the Observer pattern, checkout  <a href="https://refactoring.guru/design-patterns/observer	" target="_blank">this excellent post</a> from Refactoring Guru. It describes the Observer pattern in easy to understand language and includes some more great infographics and illustrations to help make envisioning the Observer pattern easy. 																						
 
 <a href="https://docs.google.com/spreadsheets/d/1OlY9JCrjk7uvxffcAcwOa1yOtACNMfv-YUb5PcUrOUI/edit?usp=sharing" target="_blank">Click here</a> for a table of Design Patterns that inclues some class notes on the topic.
