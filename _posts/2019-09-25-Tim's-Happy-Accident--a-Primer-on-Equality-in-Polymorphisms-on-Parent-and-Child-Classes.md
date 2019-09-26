@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Tim's Happy Accident - A Primer on Equality in Polymorphisms on Parent and Child Classes
 ---
