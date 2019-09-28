@@ -9,11 +9,30 @@ In today's lesson, we learned about Data Structures. The table below shows the 4
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-zifs{font-weight:bold;background-color:#9698ed;text-align:left;vertical-align:middle}
+.tg .tg-r6x4{background-color:#ecf4ff;text-align:left;vertical-align:middle}
+.tg .tg-0qe0{background-color:#ecf4ff;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-0lax"></th>
+    <th class="tg-zifs">Delimitation Pattern</th>
+    <th class="tg-zifs">Sytntax</th>
+  </tr>
+  <tr>
+    <td class="tg-r6x4">Postfix  </td>
+    <td class="tg-r6x4">a|b|c|</td>
+  </tr>
+  <tr>
+    <td class="tg-r6x4">Prefix   </td>
+    <td class="tg-r6x4">|a|b|c</td>
+  </tr>
+  <tr>
+    <td class="tg-0qe0">Infix   </td>
+    <td class="tg-0qe0">a|b|c</td>
+  </tr>
+  <tr>
+    <td class="tg-0qe0">Outfix (aka Fullfix)  </td>
+    <td class="tg-0qe0">|a|b|c|</td>
   </tr>
 </table>
 
@@ -50,43 +69,70 @@ Here is the homework data expressed in XML:
 **Important takeaways about XML (Extensible Markup Language):**
 
 
+Tables Generator
+LaTeX Tables
+HTML Tables
+Text Tables
+Markdown Tables
+MediaWiki Tables
+Contact
+
+ 
+HTML Tables Generator94 
+      Serif font (generic)  Default font size          Theme
+ GenerateDo not generate CSSCompact mode
+Result (click "Generate" to refresh) Copy to clipboard
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-4qoz{background-color:#ecf4ff;border-color:inherit;text-align:left;vertical-align:middle}
-.tg .tg-a5z1{font-weight:bold;background-color:#9698ed;border-color:inherit;text-align:left;vertical-align:middle}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-zifs{font-weight:bold;background-color:#9698ed;text-align:left;vertical-align:middle}
+.tg .tg-r6x4{background-color:#ecf4ff;text-align:left;vertical-align:middle}
 .tg .tg-0qe0{background-color:#ecf4ff;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-a5z1">XML terms</th>
-    <th class="tg-a5z1">Takeaways</th>
-    <th class="tg-0pky"></th>
+    <th class="tg-zifs">XML terms</th>
+    <th class="tg-zifs">Takeaways</th>
   </tr>
   <tr>
-    <td class="tg-4qoz">elements</td>
-    <td class="tg-4qoz">Everything from (including) the element's start tag to (including) the element's end tag. An element can have an attribute(s) associated with it.</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-r6x4">elements</td>
+    <td class="tg-r6x4">Everything from (including) the element's start tag to (including) the element's end tag. An element can have an attribute(s) associated with it.</td>
   </tr>
   <tr>
-    <td class="tg-4qoz">attributes</td>
-    <td class="tg-4qoz">Attributes are part of XML elements. Atributes define properties of elements. An XML attribute is always a name-value pair.</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-r6x4">attributes</td>
+    <td class="tg-r6x4">Attributes are part of XML elements. Atributes define properties of elements. An XML attribute is always a name-value pair.</td>
   </tr>
   <tr>
     <td class="tg-0qe0">schema</td>
     <td class="tg-0qe0">An XML schema represents the interrelationship between the attributes and elements of an XML object</td>
-    <td class="tg-0lax"></td>
   </tr>
   <tr>
     <td class="tg-0qe0">data types</td>
     <td class="tg-0qe0">Elements in XML can only contain text, but the text can describe many different types. It can be one of the types included in the XML Schema definition (boolean, string, date, etc.), or customized.</td>
-    <td class="tg-0lax"></td>
   </tr>
 </table>
+First row is a table header   Preview
+How to use it?
+Using the Table menu set the desired size of the table.
+Enter the table data into the table:
+select and copy (Ctrl+C) a table from the spreadsheet (e.g. Google Docs, LibreOffice Calc, webpage) and paste it into our editor -- click a cell and press Ctrl+V
+or just double click any cell to start editing it's contents -- Tab and Arrow keys can be used to navigate table cells
+Adjust text alignment and table borders using the options from the menu and using the toolbar buttons -- formatting is applied to all the selected cells.
+Click "Generate" button to see the generated table's HTML source code -- select it and then Copy & Paste to your website's source.
+We hope that this tool will prove useful for people who are not very familiar with the HTML and CSS. So if you need a table for your website or blog (Wordpress, Drupal or any platform which allows putting HTML code inside posts) it should work just fine. Our HTML table generator could also be useful for developers who just want to quickly create the HTML table. Please, note that newlines are preserved in the generated table's code.
+
+Remarks
+To insert the table into your website just copy & paste the generated code into your website's source. It should display fine in all modern browsers both desktop and mobile. But if you want your page to remain consistent with HTML standard, please, read the next paragraph.
+
+The generated code consists of two parts: <style> tag and <table> tag. The first one should be copied and put just before the </head> tag of your website, while the latter (i.e. table code) should be placed in the desired location.
+
+Table themes
+As you probably noticed there is a select box "--Table theme--" in the toolbar which allows selecting a table theme from the predefined set. The generated CSS contains all the necessary colors etc. so that the table should look similar when you paste it to your website.
+
+© TablesGenerator.comAboutChangelog
+
+
 **JSON - JavaScript Object Notation**
 
 Here is the homework data expressed in JSON:
