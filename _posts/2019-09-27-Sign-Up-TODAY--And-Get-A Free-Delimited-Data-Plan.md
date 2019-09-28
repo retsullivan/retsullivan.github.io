@@ -7,7 +7,7 @@ In today's lesson, we learned about Data Structures. The table below shows the 4
 
 <table>
     <tr>
-        <td>Delimitation Pattern</td>
+        <td>Delimitation Pattern     </td>
         <td>Syntax</td>
     </tr>
     <tr>
