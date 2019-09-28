@@ -54,7 +54,6 @@ Here is the homework data expressed in XML:
 
 
 ```xml
-<?xml version="1.0" encoding="UTF-8" ?>
 <root>
     <row><Element>First Name</Element><Name>Tim</Name></row>
     <row><Element>Last Name</Element><Name>Rayburn</Name></row>
