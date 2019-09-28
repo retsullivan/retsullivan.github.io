@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Sign Up TODAY, And Get A Free Delimited Data Plan
 ---
