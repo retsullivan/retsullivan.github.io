@@ -78,10 +78,6 @@ MediaWiki Tables
 Contact
 
  
-HTML Tables Generator94 
-      Serif font (generic)  Default font size          Theme
- GenerateDo not generate CSSCompact mode
-Result (click "Generate" to refresh) Copy to clipboard
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
@@ -112,25 +108,6 @@ Result (click "Generate" to refresh) Copy to clipboard
     <td class="tg-0qe0">Elements in XML can only contain text, but the text can describe many different types. It can be one of the types included in the XML Schema definition (boolean, string, date, etc.), or customized.</td>
   </tr>
 </table>
-First row is a table header   Preview
-How to use it?
-Using the Table menu set the desired size of the table.
-Enter the table data into the table:
-select and copy (Ctrl+C) a table from the spreadsheet (e.g. Google Docs, LibreOffice Calc, webpage) and paste it into our editor -- click a cell and press Ctrl+V
-or just double click any cell to start editing it's contents -- Tab and Arrow keys can be used to navigate table cells
-Adjust text alignment and table borders using the options from the menu and using the toolbar buttons -- formatting is applied to all the selected cells.
-Click "Generate" button to see the generated table's HTML source code -- select it and then Copy & Paste to your website's source.
-We hope that this tool will prove useful for people who are not very familiar with the HTML and CSS. So if you need a table for your website or blog (Wordpress, Drupal or any platform which allows putting HTML code inside posts) it should work just fine. Our HTML table generator could also be useful for developers who just want to quickly create the HTML table. Please, note that newlines are preserved in the generated table's code.
-
-Remarks
-To insert the table into your website just copy & paste the generated code into your website's source. It should display fine in all modern browsers both desktop and mobile. But if you want your page to remain consistent with HTML standard, please, read the next paragraph.
-
-The generated code consists of two parts: <style> tag and <table> tag. The first one should be copied and put just before the </head> tag of your website, while the latter (i.e. table code) should be placed in the desired location.
-
-Table themes
-As you probably noticed there is a select box "--Table theme--" in the toolbar which allows selecting a table theme from the predefined set. The generated CSS contains all the necessary colors etc. so that the table should look similar when you paste it to your website.
-
-© TablesGenerator.comAboutChangelog
 
 
 **JSON - JavaScript Object Notation**
