@@ -103,9 +103,6 @@ Here is the homework data expressed in JSON:
 
 ```json
 {
-Starts a new file in JSON
-
-
 “name”:”Tim Rayburn”, 
  “hitPoints”: 100,
   “Tags”: [“mean”,”good”] 
