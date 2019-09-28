@@ -5,27 +5,16 @@ title: Sign Up TODAY, And Get A Free Delimited Data Plan
 
 In today's lesson, we learned about Data Structures. The table below shows the 4 basic delimitation patterns used to seperate data. 
 
-<table>
-    <tr>
-        <td>Delimitation Pattern     </td>
-        <td> Syntax</td>
-    </tr>
-    <tr>
-        <td>Postfix</td>
-        <td>a\|b\|c\|</td>
-    </tr>
-    <tr>
-        <td>Prefix</td>
-        <td>\|a\|b\|c</td>
-    </tr>
-    <tr>
-        <td>Infix</td>
-        <td>a\|b\|c</td>
-    </tr>
-    <tr>
-        <td>Outfix</td>
-        <td>\|a\|b\|c\|</td>
-    </tr>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-0lax"></th>
+  </tr>
 </table>
 
 
@@ -61,28 +50,43 @@ Here is the homework data expressed in XML:
 **Important takeaways about XML (Extensible Markup Language):**
 
 
-
-
-<table>
-        <tr>
-        <td>elements</td>
-        <td>Everything from (including) the element's start tag to (including) the element's end tag. An element can have an attribute(s) associated with it.</td>
-    </tr>
-    <tr>
-        <td>attributes</td>
-        <td>Attributes are part of XML elements. Atributes define properties of elements. An XML attribute is always a name-value pair.</td>
-    </tr>
-    <tr>
-        <td>schema</td>
-        <td>An XML schema represents the interrelationship between the attributes and elements of an XML object</td>
-    </tr>
-    <tr>
-        <td>data types</td>
-        <td>Elements in XML can only contain text, but the text can describe many different types. It can be one of the types included in the XML Schema definition (boolean, string, date, etc.), or customized.</td>
-    </tr>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-4qoz{background-color:#ecf4ff;border-color:inherit;text-align:left;vertical-align:middle}
+.tg .tg-a5z1{font-weight:bold;background-color:#9698ed;border-color:inherit;text-align:left;vertical-align:middle}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0qe0{background-color:#ecf4ff;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-a5z1">XML terms</th>
+    <th class="tg-a5z1">Takeaways</th>
+    <th class="tg-0pky"></th>
+  </tr>
+  <tr>
+    <td class="tg-4qoz">elements</td>
+    <td class="tg-4qoz">Everything from (including) the element's start tag to (including) the element's end tag. An element can have an attribute(s) associated with it.</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-4qoz">attributes</td>
+    <td class="tg-4qoz">Attributes are part of XML elements. Atributes define properties of elements. An XML attribute is always a name-value pair.</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0qe0">schema</td>
+    <td class="tg-0qe0">An XML schema represents the interrelationship between the attributes and elements of an XML object</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0qe0">data types</td>
+    <td class="tg-0qe0">Elements in XML can only contain text, but the text can describe many different types. It can be one of the types included in the XML Schema definition (boolean, string, date, etc.), or customized.</td>
+    <td class="tg-0lax"></td>
+  </tr>
 </table>
-
-
 **JSON - JavaScript Object Notation**
 
 Here is the homework data expressed in JSON:
@@ -125,29 +129,41 @@ Note that:
 
 Unlike most modern programing langues, JSON only has 4 data types. 
 
-<table>
-    <tr>
-        <td>Delimeter</td>
-        <td>Syntax</td>
-    </tr>
-    <tr>
-        <td>Object</td>
-        <td>{  } </td>
-    </tr>
-    <tr>
-        <td>String</td>
-        <td>“     "</td>
-    </tr>
-    <tr>
-        <td>Number</td>
-        <td>no syecial characters</td>
-    </tr>
-    <tr>
-        <td>array</td>
-        <td>[    }</td>
-    </tr>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-zifs{font-weight:bold;background-color:#9698ed;text-align:left;vertical-align:middle}
+.tg .tg-r6x4{background-color:#ecf4ff;text-align:left;vertical-align:middle}
+.tg .tg-0qe0{background-color:#ecf4ff;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-zifs">Data Type</th>
+    <th class="tg-zifs">Syntax Example</th>
+    <th class="tg-zifs">Takeaways</th>
+  </tr>
+  <tr>
+    <td class="tg-r6x4">Object</td>
+    <td class="tg-r6x4">{ “name” : “Rachel” }{ 9:27:2019}</td>
+    <td class="tg-r6x4">{ } are outfix (and can be nested for objects inside objects)</td>
+  </tr>
+  <tr>
+    <td class="tg-r6x4">String</td>
+    <td class="tg-r6x4">“Rachel “</td>
+    <td class="tg-r6x4">Sequence of characters“ “ are outfix</td>
+  </tr>
+  <tr>
+    <td class="tg-0qe0">Number</td>
+    <td class="tg-0qe0">134</td>
+    <td class="tg-0qe0">Like a double in java</td>
+  </tr>
+  <tr>
+    <td class="tg-0qe0">array</td>
+    <td class="tg-0qe0">[ number , “string” ]</td>
+    <td class="tg-0qe0">Comma is infixed</td>
+  </tr>
 </table>
-
 
 
 Also of note: JSON files can start in different ways, depending on what you want to send out for another thing to consume
