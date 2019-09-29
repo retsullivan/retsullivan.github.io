@@ -186,12 +186,12 @@ Also of note: JSON files can start in different ways, depending on what you want
 * array files start with [
 
 
-It is interesting to see the similaries and differnces in syntax between the two data structures, and it was an excercise in patience to type it all out. Thankfully, this sort of tedious conversion is not something programmers have to do manually anymore - it's fairly easly to automatically convert data from a delimited list into a table or desired language.
+It is interesting to see the similaries and differnces in syntax between the two data structures, and it was an excercise in patience to type it all out. Thankfully, this sort of tedious conversion is not something programmers have to do manually anymore - it's fairly easly to automatically convert data from a delimited list into a table or desired language. The more commom and difficult problem is getting programs that use different types of delimitation to work with each other, and to do it automatically and smoothly.
 
 
 **Buy 2 Structures, Get 2 Free**
 
-A quick google search lead me to https://tableconvert.com - a no frills website that you can paste a deliated list into, chose the language you want to convert it to, and it will instantly give you the code. I've used similar html tools before in my role as Webmaster for my local Destination Imagination region, but it is cool to be able to instantly see how the different languages parse the data.
+A quick google search lead me to https://tableconvert.com - a no frills website that you can paste a delimited list into, chose the language you want to convert it to, and it will instantly give you the code. I've used similar html tools before in my role as Webmaster for my local Destination Imagination region, but it is cool to be able to instantly see how the different languages parse the data.
 
 **Markdown Example**
 
