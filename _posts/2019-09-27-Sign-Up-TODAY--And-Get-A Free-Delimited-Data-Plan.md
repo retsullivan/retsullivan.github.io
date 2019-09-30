@@ -186,7 +186,7 @@ Also of note: JSON files can start in different ways, depending on what you want
 * array files start with [
 
 
-It is interesting to see the similaries and differnces in syntax between the two data structures, and it was an excercise in patience to type it all out. Thankfully, this sort of tedious conversion is not something programmers have to do manually anymore - it's fairly easly to automatically convert data from a delimited list into a table or desired language. The more commom and difficult problem is getting programs that use different types of delimitation to work with each other, and to do it automatically and smoothly.
+It is interesting to see the similaries and differnces in syntax between the two data structures, and it was an excercise in patience to type it all out. Thankfully, this sort of tedious conversion is not something programmers have to do manually anymore - it's fairly easly to automatically convert data from a delimited list into a table or desired language. The more common and difficult problem is getting programs that use different types of delimitation schemes to work with each other, and to do it automatically and smoothly.
 
 
 **Buy 2 Structures, Get 2 Free**
