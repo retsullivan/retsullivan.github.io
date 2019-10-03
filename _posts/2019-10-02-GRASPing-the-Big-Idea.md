@@ -1,5 +1,5 @@
-﻿---
-layout:post
+---
+layout: post
 title: GRASPing the Big Idea
 ---
 
@@ -17,7 +17,7 @@ Today we discussed 3 types of creators.
 
 **Factory** 
 * Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
-* Alex said it was sort of like BuildWorld (if build word could make different worlds?)
+* Alex said it was sort of like BuildWorld (imagine if buildWorld could make different worlds...)
 
 **Builder**
 * Lets you construct complex objects step by step. 
@@ -37,7 +37,8 @@ Today we discussed 3 types of creators.
 
 ## **Low Coupling**
 
-* Strives to reduce dependencies between parts of the codebase.Lowers the impact of change in one class.
+* Strives to reduce dependencies between parts of the codebase.
+* Lowers the impact of change in one class.
 * Makes code more reusable, maintainable and stable.
 * Code may end up with many layers of indirection, which can make it hard for someone who didn’t write it to sort out.
 
