@@ -1,6 +1,6 @@
 ---
-layout:post
-title:GRASPing the Big Idea
+layout: post
+title: GRASPing the Big Idea
 ---
 
 **General Responsibility Assignment Software Principals (GRASP)** 
