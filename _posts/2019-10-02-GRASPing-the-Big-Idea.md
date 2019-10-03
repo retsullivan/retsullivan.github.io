@@ -1,9 +1,9 @@
 ---
-layout: post
-title: GRASPing the Big Idea
+layout:post
+title:GRASPing the Big Idea
 ---
 
-# **General Responsibility Assignment Software Principals (GRASP)** 
+## **General Responsibility Assignment Software Principals (GRASP)** 
 
 GRASP are a collection of principles and patterns that work together to create best practices for software design.
 
