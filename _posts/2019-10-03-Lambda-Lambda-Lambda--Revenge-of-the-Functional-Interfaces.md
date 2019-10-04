@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Lambda Lambda Lambda-- Revenge of the Functional Interfaces
 ---
@@ -37,7 +37,7 @@ Using lambda expressions here allowed us to define a simple addition function to
 
 Any interface with a SAM(Single Abstract Method) is a functional interface. SAMs are different from regular interfaces because they can only have one abstract method for which they define parameters. This is becuase SAMs were created to work with lamda expressions.
 
-A little digging yielded this list of <a href="https://www.tutorialspoint.com/java8/java8_functional_interfaces.htm" target="_blank">43 functional interfaces</a> available in Java. Here are some definitions of a few of the functional interfaces that we've used or discussed in bootcamp:
+A little digging yielded this list of <a href="https://www.tutorialspoint.com/java8/java8_functional_interfaces.htm" target="_blank">43 functional interfaces</a> available in Java. Here are some descriptions of a few of types of functional interfaces that we've used or discussed in bootcamp:
 
 Functional Interface examples:
 * Function - receives one value and returns another
