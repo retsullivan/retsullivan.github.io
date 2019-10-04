@@ -8,9 +8,9 @@ title: Lambda Lambda Lambda-- Revenge of the Functional Interfaces
 
 ### **Lambda Expressions - "Look, Ma - No Objects!"**
 
-Java lambda expressions were Java's first forray into the land of functional programming. Unlike everything else we've learned so far about Java, lambda expressions are functions which can be created *without* being part of a class. Lambda expressions are a way to pass a function implementation as a parameter. 
+Java lambda expressions were Java's first foray into the land of functional programming. Unlike everything else we've learned so far about Java, lambda expressions are functions which can be created *without* being part of a class. Lambda expressions are a way to pass a function implementation as a parameter. 
 
-When we use lambda expressions, we don't have to declare a type.  This is because we are using them to act on methods from Functional Interfaces that define the variable types for us. This is called *type inference*.  Another example of type inference in Java is using "var" when we're declaring a new vairable.
+When we use lambda expressions, we don't have to declare a type.  This is because we are using them to act on methods from Functional Interfaces that define the variable types for us. This is called *type inference*.  Another example of type inference in Java is using "var" when we're declaring a new variable.
 
 Lambda expressions have two parts:
 
@@ -31,11 +31,11 @@ Consider `.addition_with_lambda()` in the next block of code. It has one method 
     assertEquals(5, math.doMath(2,3));
     }
 
-Using lambda expressions here allowed us to define a simple addition function to use in the `addition_with_lambda` method without declaring a whole seperate class that implements the `IntMath` interface. 
+Using lambda expressions here allowed us to define a simple addition function to use in the `addition_with_lambda` method without declaring a whole separate class that implements the `IntMath` interface. 
 
 ### **Functional Interfaces**
 
-Any interface with a SAM(Single Abstract Method) is a functional interface. SAMs are different from regular interfaces because they can only have one abstract method for which they define parameters. This is becuase SAMs were created to work with lamda expressions.
+Any interface with a SAM(Single Abstract Method) is a functional interface. SAMs are different from regular interfaces because they can only have one abstract method for which they define parameters. This is because SAMs were created to work with lamda expressions.
 
 A little digging yielded this list of <a href="https://www.tutorialspoint.com/java8/java8_functional_interfaces.htm" target="_blank">43 functional interfaces</a> available in Java. Here are some descriptions of a few of types of functional interfaces that we've used or discussed in bootcamp:
 
