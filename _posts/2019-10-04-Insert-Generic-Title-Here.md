@@ -3,6 +3,8 @@ layout: post
 title: Insert '<'Generic'>' Title Here
 ---
 
+## Using Generics in Java
+
 ![](https://i.imgflip.com/20c65w.jpg)
 
  Generics allow types (classes and interfaces) to be parameters when creating classes, interfaces and methods. Generics can accept multiple types until we specify a type. 
