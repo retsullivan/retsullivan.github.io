@@ -48,7 +48,7 @@ The .forEach() method of Stream class does exactly what you'd expect it to do - 
 
 **Stream Code:**
 
-    List numbers = Arrays.asList(2,3,4,5);
+    List <Integer> numbers = Arrays.asList(2,3,4,5);
     numbers.stream().forEach(x -> System.out.println(x));
 
 **Output:**
@@ -60,7 +60,7 @@ The .forEach() method of Stream class does exactly what you'd expect it to do - 
 
 **Works Like This Regular For Each Loop**
 
-    List numbers = Arrays.asList(2,3,4,5);
+    List <Integer> numbers = Arrays.asList(2,3,4,5);
     for  (int x: numbers){
        System.out.println(x*x);
     }
