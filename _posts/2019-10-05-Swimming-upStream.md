@@ -1,4 +1,4 @@
-﻿---
+---
 Layout: Post
 Title: Swimming upStream
 ---
@@ -21,28 +21,26 @@ The .forEach() method of Stream class does exactly what you'd expect it to do - 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:bold;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-juju{font-family:"Courier New", Courier, monospace !important;;text-align:left;vertical-align:top}
-.tg .tg-w4ur{background-color:#cbcefb;color:#000000;text-align:left;vertical-align:middle}
-.tg .tg-s2b1{background-color:#cbcefb;color:#000000;text-align:left;vertical-align:top}
-.tg .tg-ikui{font-family:"Courier New", Courier, monospace !important;;text-align:left;vertical-align:middle}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-6uvu{font-family:"Courier New", Courier, monospace !important;;color:#000000;text-align:left;vertical-align:middle}
+.tg .tg-e0yz{font-weight:bold;font-size:13px;font-family:Verdana, Geneva, sans-serif !important;;background-color:#cbcefb;text-align:left;vertical-align:middle}
+.tg .tg-a8yd{font-weight:bold;font-size:13px;font-family:Verdana, Geneva, sans-serif !important;;background-color:#cbcefb;text-align:left;vertical-align:top}
+.tg .tg-vwu2{font-family:"Courier New", Courier, monospace !important;;color:#000000;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
-    <td class="tg-w4ur">OriginalObject</td>
-    <td class="tg-w4ur">Streaming</td>
-    <td class="tg-w4ur">Logic loop</td>
-    <td class="tg-w4ur">Lambda(ƛ) parameter</td>
-    <td class="tg-w4ur"></td>
-    <td class="tg-s2b1">Lambda(ƛ) expression</td>
+    <th class="tg-e0yz">OriginalObject</th>
+    <th class="tg-e0yz">Streaming</th>
+    <th class="tg-e0yz">Logic loop</th>
+    <th class="tg-a8yd">Lambda(ƛ) parameter</th>
+    <th class="tg-a8yd">Lambda(ƛ) expression</th>
   </tr>
   <tr>
-    <td class="tg-ikui">numbers</td>
-    <td class="tg-ikui">.stream()</td>
-    <td class="tg-ikui">.forEach</td>
-    <td class="tg-ikui">(x</td>
-    <td class="tg-ikui">-&gt;</td>
-    <td class="tg-juju">System.out.println(x));</td>
+    <td class="tg-6uvu">numbers</td>
+    <td class="tg-6uvu">.stream()</td>
+    <td class="tg-6uvu">.forEach</td>
+    <td class="tg-vwu2">(x -&gt;</td>
+    <td class="tg-vwu2">System.out.println(x));</td>
   </tr>
 </table>
 
