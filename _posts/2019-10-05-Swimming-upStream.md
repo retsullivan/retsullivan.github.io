@@ -116,7 +116,7 @@ The .collect() method of Stream class gathers elements of any Stream into a Coll
         newList.add(x*x);
     }
     
-## Example of .map and forEach
+## Example of .map() and .forEach()
 
 The .map() method is used when we want to convert a stream of `x` to stream of `f(x)` (aka `y`).
 
