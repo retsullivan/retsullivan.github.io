@@ -3,7 +3,7 @@ Layout: Post
 Title: Swimming upStream
 ---
 
-# A Beginner’s Guide to Understanding Stream Notation in Java
+## A Beginner’s Guide to Understanding Stream Notation in Java
 
 ![](http://m.quickmeme.com/img/33/3398632cdf583387ac55485651a2cb4a652234cb69f42f22b3fe8b623d688aca.jpg)
 
