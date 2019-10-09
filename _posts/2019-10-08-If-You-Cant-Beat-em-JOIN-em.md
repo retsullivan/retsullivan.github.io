@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: The SQL was better
+title: If You Can't Beat em, JOIN em
 ---
 
 ## Visualizing the JOIN command in SQL
