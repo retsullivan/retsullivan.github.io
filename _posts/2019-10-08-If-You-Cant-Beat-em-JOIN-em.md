@@ -21,14 +21,14 @@ Here is my example using psedo tables:
 
 You can see that an inner join only returns the stuff the two tables have in common.
 
-**Outer Join**
+**Full Join**
 
 This type is like a *union* in a venn diagram.
 
 Here is my example using psedo tables:
 ![](https://raw.githubusercontent.com/retsullivan/retsullivan.github.io/master/images/JOIN%20tables_FUll%20Join.jpg)
 
-You can see that an outer join returns all the unique columns from both tables.  
+You can see that a full join returns all the unique columns from both tables.  
 
 **Left Join & Right Join**
 
