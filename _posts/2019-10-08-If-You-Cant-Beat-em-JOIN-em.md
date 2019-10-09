@@ -48,3 +48,4 @@ This type of join doesn't translate well into a venn diagram picture.  It is a n
 
 ![](https://raw.githubusercontent.com/retsullivan/retsullivan.github.io/master/images/JOIN%20tables_Cross%20Join.jpg)
 
+These examples don't cover edge cases, but hopefully it's a good way to think about the big picture.
