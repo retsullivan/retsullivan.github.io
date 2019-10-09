@@ -44,8 +44,8 @@ You can see here that the order than you join tables is important (the right and
 
 **Cross Join**
 
-This type of join doesn't translate well into a venn diagram picture.  It is a new table that contains every possible combination of the elements in the tables that are being joined. Here is my example using psedo tables:
+This type of join doesn't translate well into a venn diagram picture.  It is a new table that contains all the data from the first table with all the combination of the elements in the table that is being joined. Here is my example using pseudo tables:
 
-![](https://raw.githubusercontent.com/retsullivan/retsullivan.github.io/master/images/JOIN%20tables_Cross%20Join.jpg)
+![](https://raw.githubusercontent.com/retsullivan/retsullivan.github.io/master/images/SQL%20Join%20Visualizations%20-%20Cross%20Join%20-%20updated-01.jpg)
 
 These examples don't cover edge cases, but hopefully it's a good way to think about the big picture.
