@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: What I Did On My October Vacation Or:
 ---
