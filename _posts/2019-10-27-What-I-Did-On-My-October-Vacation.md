@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What I Did On My October Vacation Or:
+title: What I Did On My October Vacation Or-
 ---
 
 ## How I Learned to Stop Worrying and Love My Week Off
